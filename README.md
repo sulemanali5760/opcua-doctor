@@ -43,11 +43,22 @@ Connection does not work. 1 problem(s), 1 warning(s).
 
 ## Install
 
+With internet:
+
 ```bash
-pip install git+https://github.com/sulemanali5760/opcua-doctor
+pip install https://github.com/sulemanali5760/opcua-doctor/releases/download/v0.1.1/opcua_doctor-0.1.1-py3-none-any.whl
 ```
 
-Python 3.11 or newer. Not on PyPI yet.
+Without internet (a plant PC, a commissioning laptop on the machine network): download the offline bundle
+for your system from the [latest release](https://github.com/sulemanali5760/opcua-doctor/releases/latest), carry
+it over on a USB stick, unzip it and run inside the folder:
+
+```bash
+python -m pip install --no-index --find-links . opcua-doctor
+```
+
+The bundle holds this tool and every package it needs; nothing is downloaded. Each bundle is installed in a
+clean environment and started once before it is published. Python 3.11 or newer. Not on PyPI yet.
 
 ## Use
 

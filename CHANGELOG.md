@@ -2,6 +2,10 @@
 
 All notable changes to this project are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.1.1 - 2026-11-12
+
+- Releases carry a wheel and offline bundles (tool plus all dependencies) for Linux and Windows.
+
 ## 0.1.0 - 2026-11-12
 
 First public version.
