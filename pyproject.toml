@@ -7,7 +7,7 @@ name = "opcua-doctor"
 version = "0.1.0"
 description = "Find out why an OPC UA connection fails, and what to do about it: endpoints, certificates, trust, login, explained step by step."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Suleman Ali" }]
 keywords = ["opc-ua", "opcua", "troubleshooting", "certificates", "industrial-automation", "plc"]

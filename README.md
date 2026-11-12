@@ -47,7 +47,7 @@ Connection does not work. 1 problem(s), 1 warning(s).
 pip install git+https://github.com/sulemanali5760/opcua-doctor
 ```
 
-Python 3.10 or newer. Not on PyPI yet.
+Python 3.11 or newer. Not on PyPI yet.
 
 ## Use
 
