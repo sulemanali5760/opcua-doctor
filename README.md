@@ -1,6 +1,6 @@
 # opcua-doctor
 
-[![ci](https://github.com/sulemanali5760/opcua-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/sulemanali5760/opcua-doctor/actions/workflows/ci.yml)
+[![ci](https://github.com/sulemanali5760/opcua-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/sulemanali5760/opcua-doctor/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/opcua-doctor)](https://pypi.org/project/opcua-doctor/)
 
 Find out **why an OPC UA connection fails**, and what to do about it.
 
@@ -43,10 +43,8 @@ Connection does not work. 1 problem(s), 1 warning(s).
 
 ## Install
 
-With internet:
-
 ```bash
-pip install https://github.com/sulemanali5760/opcua-doctor/releases/download/v0.1.1/opcua_doctor-0.1.1-py3-none-any.whl
+pip install opcua-doctor
 ```
 
 Without internet (a plant PC, a commissioning laptop on the machine network): download the offline bundle
@@ -58,7 +56,7 @@ python -m pip install --no-index --find-links . opcua-doctor
 ```
 
 The bundle holds this tool and every package it needs; nothing is downloaded. Each bundle is installed in a
-clean environment and started once before it is published. Python 3.11 or newer. Not on PyPI yet.
+clean environment and started once before it is published. Python 3.11 or newer.
 
 ## Use
 
